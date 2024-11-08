@@ -73,11 +73,13 @@ Trebuie să gestionați următoarele informații:
     - Data începerii 
     - Durata 
     - O listă cu persoanele care se vor caza
-Persoană: 
+* Persoană: 
     - Nume și prenume 
     - Anul nașterii
 
-Creați o interfață de utilizare în linie de comandă care se va ocupa de următoarele operațiuni: * Adăugarea unei noi rezervări 
+Creați o interfață de utilizare în linie de comandă care se va ocupa de următoarele operațiuni: 
+
+* Adăugarea unei noi rezervări 
 * Căutarea unei rezervări pe baza numelui persoanei
 * Listare toate rezervările 
 
@@ -86,7 +88,7 @@ Pentru simplitate apartamentele vor fi pre populate din cod, **NU** vor fi gesti
 Adăugați o nouă funcționalitate aplicației care să permită calcularea taxelor pentru o rezervare pentru o anumită țară.
 
 Pentru aceasta se vor urma pașii:
-* definire interfață `ITaxCalculator`
+* definire clasă abstractă `TaxCalculator`
 * implementare calculatoare de taxe pentru România (19% din valoarea), Franța (25% din valoarea rezervării pentru sume ce depășesc 1000euro, 10% din valoarea rezervării pentru sumele ce sunt sub acest prag) și Italia (2 euro / zi și 9% din valoarea rezervării)
 * modificare constructor `Reservation` pentru a permite injectarea calculatorului de taxe
 * adăugare metodă `calculateTax` în clasa `Reservation`
