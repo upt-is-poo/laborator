@@ -23,11 +23,11 @@
 ## Cerințe nota <= 10
 -	Toate cerințele de mai sus
 -	Folosirea .Net Core GenericHost pentru a gestiona dependențele și configurarea aplicației
--	Crearea de teste unitare pentru validarea comportamentului claselor
 -	Folosire ILogger pentru a colecta informații despre erori
 
 ## Cerințe bonus
 -	Folosirea expresiilor de tip LINQ pentru a manipula colecții de obiecte
+-	Crearea de teste unitare pentru validarea comportamentului claselor
 -	Implementarea unei stocări alternative într-o bază de date SQL sau NO-SQL
 -	Crearea unei soluții de tip “framework” care să permită dezvoltarea altor aplicații similare
 -	Implementarea modelului arhitectural MVC
